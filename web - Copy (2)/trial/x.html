@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="style sheet" type="text/css" href="x.css">
+    <script>
+        jQuery(document).ready(function(){
+        jQuery(window).scroll(function() {
+        var scroll = jQuery(window).scrollTop();
+        
+        if (scroll >= 100) {
+        jQuery(".pa-header").addClass("pa-fixed-header");
+        }
+        else{
+        jQuery(".pa-header").removeClass("pa-fixed-header");
+        }
+        });
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="pa-header">i m boss</div>
+</body>
+</html>

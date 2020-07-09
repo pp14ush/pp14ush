@@ -1,0 +1,18 @@
+/*set the defautl background color of the header section*/
+.pa-header {
+	background: transparent;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+
+
+/*set the background color of the fixed header when scrolling*/
+.pa-fixed-header {
+	background-color: #000;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
