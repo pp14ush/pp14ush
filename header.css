@@ -1,0 +1,249 @@
+@font-face {
+  font-family:"BROOKLINE-Condensed";
+  src:url("Brookline.eot?") 
+  format("eot"),url("Brookline.woff") 
+  format("woff"),url("Brookline.ttf")
+   format("truetype"),url("Brookline.svg#BROOKLINE-Condensed") 
+   format("svg");
+   font-weight:"bold";
+  }
+  @font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 9.woff') format('woff');
+    }
+  @font-face{
+    font-family: 'PlatNomar';
+    src:url("PlatNomor.ttf") format("truetype")
+  }
+  @font-face{
+    font-family: 'MANDATOR';
+    src:url("MANDATOR.ttf") format("truetype")
+  }
+
+    body{
+      margin: 0;
+      padding: 0;
+      font-size: 15px;
+  }
+  
+  /* Navigation */
+  nav{
+      margin: 0;
+      overflow:hidden;
+    text-align: center;
+    font-family: 'Bahnschrift Regular';
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height:60px;
+  }
+  
+  .nav-image {
+    float: left;
+  }
+
+  .nav-text {
+    float: right;
+  }
+
+  nav ul{
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li{
+      display: inline-block;
+      list-style-type: none;
+      
+  }
+  
+  nav ul li a{
+      color: white;
+      display: block;
+      line-height: 2em;
+      padding: 0.3em 1em;
+      text-decoration: none;
+  }
+  
+  .logo-img{
+    float:left;
+      position: relative;
+  }
+  .bg-div{
+    background:transparent;
+    overflow:hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 3;
+    
+  }
+  body, html {
+    position: relative;
+    margin: 0;
+    height:0px;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("WebwallnoDrone.jpg");
+    background-attachment: fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   z-index: -1;
+    
+  }
+           
+  #box {
+    font-family:"PlatNomar";
+    letter-spacing: 2px;
+    font-size: 65px; 
+    text-align: center;
+    color: #021238;
+    margin-top: 40px;
+  }
+  #about{
+    font-family: 'Bahnschrift Regular';
+    text-align: center;
+    color:#021238;
+    letter-spacing: 0.66px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer{
+    width: 100%;
+    height: 100px;
+    background-color: #021238;
+  }
+  #contact{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: bold;
+  }
+  #wh{
+    text-decoration: none;
+    color:white;
+  }
+  #social{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: bold;
+    color:white;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    height: 150px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container{
+    position: absolute;
+  text-align: center;
+  color: white;
+  }
+  .ate{
+    position: absolute;
+   z-index: 0;
+    transform: translate(-50%, -50%);
+    font-family:"BROOKLINE-Condensed";
+    font-size: 350px;
+    margin-top: 380px;
+    margin-left: 1050px;
+    color: #4b6783;
+    opacity:80%;
+    text-shadow: 1px 1px 3px black;
+    
+  }
+  #drone{
+    background-image: url("WebwallDrone.png");
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index:1 ;
+   
+  }
+  .innov{
+    position: absolute;
+    z-index: 3;
+     transform: translate(-50%, -50%);
+     font-family: 'Bahnschrift Regular';
+     
+     font-size: 130px;
+     margin-top: 280px;
+     margin-left: 560px;
+     color:#4cb8c3;
+     opacity:80%;
+     text-shadow: 1px 1px 3px black;
+     
+  }
+  .avi{
+    position: absolute;
+    z-index: 2;
+     transform: translate(-50%, -50%);
+     font-family: 'Bahnschrift Regular';
+     font-weight: bold;
+     font-size: 250px;
+     margin-top: 440px;
+     margin-left: 560px;
+     color:#e8f6fb;
+     text-shadow: 1px 1px 3px black;
+     opacity:80%;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    
+    color: white;
+  }
+  .fa-youtube {
+    
+    color: white;
+  }
+  
+  .fa-instagram {
+   
+    color: white;
+  }
+  .fa-google {
+   
+    color: white;}
+
+    #info{
+      padding-top: 40px;
+      padding-left: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:medium;
+      font-weight: bold;
+    }
