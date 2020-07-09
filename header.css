@@ -106,6 +106,9 @@
     text-align: center;
     color: #021238;
     margin-top: 40px;
+    margin-left: 35px;
+    z-index: 2;
+    
   }
   #about{
     font-family: 'Bahnschrift Regular';
@@ -174,13 +177,14 @@
     height: auto;
     min-height: 800px;
     display: block;
-    position: fixed;
+   
     bottom: 0%;
     left: 0;
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 49%;
     z-index:1 ;
+   background-attachment: fixed;
    
   }
   .innov{
