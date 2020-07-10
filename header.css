@@ -37,7 +37,7 @@
     font-size: 25px;
     font-weight: bold;
     width: 100%;
-    height:60px;
+    height:80px;
   }
   
   .nav-image {
@@ -66,10 +66,18 @@
       padding: 0.3em 1em;
       text-decoration: none;
   }
-  
+  a:hover{
+    color:#4cb8c3;
+  }
+  a.active{
+    color:#4cb8c3;
+  }
   .logo-img{
     float:left;
       position: relative;
+  }
+  .logo-img:hover{
+    background-color: #4cb7c349;
   }
   .bg-div{
     background:transparent;
@@ -152,6 +160,7 @@
     content: "";
     display: table;
     clear: both;
+   
   }
   .container{
     position: absolute;
