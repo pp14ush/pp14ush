@@ -75,10 +75,10 @@
   .logo-img{
     float:left;
       position: relative;
-      margin-top: 10px;
-      margin-left: 15px;
   }
-  
+  .logo-img:hover{
+    background-color: #4cb7c349;
+  }
   .bg-div{
     background:transparent;
     overflow:hidden;
@@ -97,6 +97,7 @@
     /* The image used */
     background-image: url("New\ 2\ \(3\).jpg");
     background-attachment: fixed;
+    
     /* Full height */
     height: 100%;
     width:100%;
@@ -108,19 +109,18 @@
     
   }
            
-  .box {
+  #box {
     font-family:"PlatNomar";
-    
+    letter-spacing: 2px;
     font-size: 65px; 
     text-align: center;
     color: #021238;
     margin-top: 40px;
     margin-left: 35px;
     z-index: 2;
-
     
   }
-  .about{
+  #about{
     font-family: 'Bahnschrift Regular';
     text-align: center;
     color:#021238;
@@ -164,22 +164,19 @@
     clear: both;
    
   }
-  .row{
-    bottom:0;
-  }
   .container{
     position: absolute;
   text-align: center;
   color: white;
   }
   .ate{
-    position: fixed;
+    position: absolute;
    z-index: 0;
     transform: translate(-50%, -50%);
     font-family:"BROOKLINE-Condensed";
     font-size: 350px;
-    margin-top: 25.1%;
-    margin-left: 69.3%;
+    margin-top: 380px;
+    margin-left: 1050px;
     color: #4b6783;
     opacity:80%;
     text-shadow: 1px 1px 3px black;
@@ -191,42 +188,42 @@
     height: auto;
     min-height: 800px;
     display: block;
-   position: fixed;
+   
     bottom: 0%;
     left: 0;
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: center 54%;
+    background-position: center 49%;
     z-index:1 ;
    background-attachment: fixed;
    
   }
   .innov{
-    position: fixed;
+    position: absolute;
     z-index: 3;
      transform: translate(-50%, -50%);
      font-family: 'Bahnschrift Regular';
+     
      font-size: 130px;
-     margin-top: 18.5%;
-     margin-left: 37%;
+     margin-top: 280px;
+     margin-left: 560px;
      color:#4cb8c3;
      opacity:80%;
      text-shadow: 1px 1px 3px black;
      
   }
   .avi{
-    position: fixed;
+    position: absolute;
     z-index: 2;
      transform: translate(-50%, -50%);
      font-family: 'Bahnschrift Regular';
      font-weight: bold;
      font-size: 250px;
-     margin-top: 29.3%;
-     margin-left: 37%;
+     margin-top: 440px;
+     margin-left: 560px;
      color:#e8f6fb;
      text-shadow: 1px 1px 3px black;
      opacity:80%;
-     
   }
   .fa {
     padding: 10px;
@@ -260,58 +257,9 @@
 
     #info{
       padding-top: 40px;
-      padding-left: 20px;
+      padding-left: 50px;
       font-family: Arial, Helvetica, sans-serif;
       font-size:medium;
       font-weight: bold;
     }
-    .home{
-      display:none;
-    }
-   .mob_photo{
-     display:none;
-   }
-    @media only screen and (max-width: 400px){
-    div.bg-div{
-      background:#021238 ;
-      bottom:0;
-      left:0;
-      position: fixed;
-     
-    }
-    div.nav-text{
-      float:left;
-    }
-    nav{
-      font-size: 9px;
-      height:30px;
-     
-    }
-    div.nav-image{
-      display: none;
-    }
-    div.bg{
-      display:none;
-    }
-    .home{
-      display: inline-block;
-    }
-  .mob_photo{
-    
-    width:100% ;
-    height: auto;
-    display:inline-block;
-  }
-  div.row{
-    display:none;
-  }
-  .box{
-    font-size: 45px;
-    margin-top:10px;
-  }
-  .about{
-    font-size:20px;
-    margin-top:10px;
-    font-family:Arial, Helvetica, sans-serif;
-  }
-    }
+ 
