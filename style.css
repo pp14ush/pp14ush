@@ -23,7 +23,7 @@
   }
   .bg {
     /* The image used */
-    background-image: url("New\ 2\ \(3\).jpg");
+    background-image: url("background.jpg");
     background-attachment: fixed;
     
     /* Full height */
@@ -41,9 +41,9 @@
    z-index: 0;
     transform: translate(-50%, -50%);
     font-family:"BROOKLINE-Condensed";
-    font-size: 25vw;
-    margin-top: 380px;
-    margin-left: 1050px;
+    font-size: 24vw;
+    margin-top: 57vh;
+    margin-left: 68vw;
     color: #4b6783;
     opacity:80%;
     text-shadow: 1px 1px 3px black;
@@ -71,9 +71,9 @@
      transform: translate(-50%, -50%);
      font-family: 'Bahnschrift Regular';
      
-     font-size: 130px;
-     margin-top: 280px;
-     margin-left: 560px;
+     font-size: 8.5vw;
+     margin-top: 42vh;
+     margin-left:  36vw;
      color:#4cb8c3;
      opacity:80%;
      text-shadow: 1px 1px 3px black;
@@ -85,9 +85,9 @@
      transform: translate(-50%, -50%);
      font-family: 'Bahnschrift Regular';
      font-weight: bold;
-     font-size: 250px;
-     margin-top: 440px;
-     margin-left: 560px;
+     font-size: 17vw;
+     margin-top: 66vh;
+     margin-left: 36vw;
      color:#e8f6fb;
      text-shadow: 1px 1px 3px black;
      opacity:80%;
