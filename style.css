@@ -233,7 +233,8 @@
           #social{
             padding-top: 8vw;
             font-size:small;
-          }
+          }}
+          @media only screen and (max-width: 600px) and (min-width: 400px) {
           .innov{
             margin-top: 46vh;
             margin-left:  33vw;
@@ -272,3 +273,23 @@
         margin-left: 68vw;
       }
     }
+  }
+  @media only screen and (max-width: 400px) {
+
+   
+        .innov{
+          margin-top: 40vh;
+          margin-left:  33vw;
+          font-size:10vw;
+        }
+        .avi{
+          font-size: 20vw;
+          margin-top: 50vh;
+          margin-left: 33vw;
+        }
+        .ate{
+          font-size: 28vw;
+          margin-top: 48vh;
+          margin-left: 68vw;
+        }
+      }
