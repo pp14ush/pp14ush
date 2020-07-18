@@ -25,6 +25,7 @@
     margin:0;
     padding:0;
     min-height: 100%;
+    height:100%;
   }
   .logoclub{
     width: 10px;
@@ -32,18 +33,17 @@
      
   }
   .bg {
-    /* The image used */
     background-image: url("background.jpg");
-    background-attachment: fixed;
-    
-    /* Full height */
+    width: 100%;
     height: 100%;
-    width:100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+    min-height: 2000px;
+ 
+    
     background-size: cover;
-   z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:0 ;
+   background-attachment: fixed;
     
   }
   .ate{
@@ -278,13 +278,13 @@
 
    
         .innov{
-          margin-top: 45vh;
+          margin-top: 47vh;
           margin-left:  32vw;
           font-size:12vw;
         }
         .avi{
           font-size: 22vw;
-          margin-top: 54vh;
+          margin-top: 56vh;
           margin-left: 32vw;
         }
         .ate{
