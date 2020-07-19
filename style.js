@@ -15,10 +15,14 @@ window.onclick = function(event) {
   }
 }
 
-  $(document).ready(function(){ 
-	
-	var s = skrollr.init();
+$(document).ready(function(){ 
+   
+
+
+var s = skrollr.init({
+	render: function(data) {
+	  //Log the current scroll position.
+	  $('#info').text(data.curTop);
+	}
 });
-
-
-
+});
