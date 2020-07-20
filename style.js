@@ -19,7 +19,7 @@ $(document).ready(function(){
 var s = skrollr.init()
 
 	$(window).scroll(function(){
-		if ($(this).scrollTop() > 900){
+		if ($(this).scrollTop() > 1200){
 			$(".w3-top").css({"background-color" : "rgba(0,0,0,0.9)"})
 		}
 		else {
