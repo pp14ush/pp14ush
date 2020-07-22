@@ -258,6 +258,9 @@
             width:50%;
             height:100px;
           }
+          #skrollr-body{
+            margin-top: 1700px;
+          }
         }
        
     @media only screen and (max-width: 870px) and (min-width: 600px) {
@@ -279,6 +282,9 @@
         font-size: 28vw;
         margin-top: 57vh;
         margin-left: 68vw;
+      }
+      #skrollr-body{
+        margin-top: 1700px;
       }}
   
   
