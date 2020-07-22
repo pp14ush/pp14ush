@@ -119,8 +119,8 @@
     color: #021238;
     margin-top: 1.5vw;
     margin-left: 35px;
-    z-index: 2;
-    
+    z-index: 20;
+    position: relative;
   }
   #about{
     font-family: 'Bahnschrift Regular';
@@ -304,4 +304,8 @@
           width :100%;
           height:100px;
         }
+        #skrollr-body{
+          margin-top: 1700px;
+        }
       }
+      
