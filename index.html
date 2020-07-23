@@ -4,109 +4,131 @@
 <title>Main_page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
+<!--fonts-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="style.js"></script>
-<script src="skrollr.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-
-
-<link  rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--fonts ends-->
+
+<!--header-->
+<link rel="stylesheet" href="header_mainpage.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--header ends-->
+
+<!--drone animation-->
+<script src="skrollr.js"></script>
+<!--drone animation ends-->
+
+<!--main style and js files-->
+
+<script src="Mainpage_javascript.js"></script>
+<link  rel="stylesheet" type="text/css" href="porwal.css">
+
 </head>
 <body>
-  <div class="w3-top font">
-    <div class="w3-bar w3-blac w3-card">
-      <a href="#home"><img class="logo-img" src="White logo.png" style="width: 100px; height:65px; margin:10px;" ></a>
-      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <div class="w3-right w3-hide-small">
-  
-      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
-  
-      <div class="w3-dropdown-hover w3-hide-small">
-        <button class="w3-padding-large w3-button" title="More">PROJECTS <i class="fa fa-caret-down"></i></button>     
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="#" class="w3-bar-item w3-button">ITSP</a>
-          <a href="#" class="w3-bar-item w3-button">OTHERS</a>
-        
+<!--Header-->
+    <div class="w3-top font">
+      <div class="w3-bar w3-blac w3-card">
+        <a href="#home"><img class="logo-img" src="White logo.png" style="width: 100px; height:65px; margin:10px;" ></a>
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <div class="w3-right w3-hide-small">
+    
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">PROJECTS <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">ITSP</a>
+            <a href="#" class="w3-bar-item w3-button">OTHERS</a>
+          
+          </div>
+        </div>
+      
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOGS</a>
+        <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
         </div>
       </div>
-     
-      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOGS</a>
-      <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
-      <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
-      </div>
-     </div>
-  </div>
-  
-
-  
-  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top font" style="margin-top:80px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOGS</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GALLERY</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EVENTS</a>
+    </div>
     
-  </div>
+
+      
+      <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+      <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top font" style="margin-top:80px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOGS</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GALLERY</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EVENTS</a>
+        
+      </div>
+
+<!--header ends-->
+
+<!--BODY -->
   <div class="bg">
+
     <div id="drone" data-0="background-size: 100% auto; position:fixed;" data1500="background-size: 0% auto; position: fixed;" data-1501="z-index=0;"></div>
     <div class="ate" data-0="position: fixed; z-index:0; opacity:0.8;" data-1500="position: fixed; z-index:0; opacity:0;" data-1501="position: absolute; ">ATE</div>
-<div class="innov" data-0="position: fixed; z-index:2; opacity:0.8;" data-1500="position: fixed; z-index:2; opacity:0;"  data-1501="position: absolut;">INNOV</div>
-<div class="avi" data-0="position: fixed; z-index:2; opacity:0.8;" data-1500="position: fixed; z-index:2; opacity:0;"  data-1501="position: absolute;">AVI</div>
+    <div class="innov" data-0="position: fixed; z-index:2; opacity:0.8;" data-1500="position: fixed; z-index:2; opacity:0;"  data-1501="position: absolut;">INNOV</div>
+    <div class="avi" data-0="position: fixed; z-index:2; opacity:0.8;" data-1500="position: fixed; z-index:2; opacity:0;"  data-1501="position: absolute;">AVI</div>
 </div>
-<div id="skrollr-body" style="bottom:0;" >
-<div id="box" style="z-index: 20;">
-  WE'RE THE AEROMODELLING CLUB,IITB
-</div>
+<!-- skrollr-body is because #box and #about is not fixed-->
+    <div id="skrollr-body">
+     
+        <div id="box" style="z-index: 20;">
+          WE'RE THE AEROMODELLING CLUB,IITB
+        </div>
 
-<div id="about">
-  “And like no other sculpture in the history of art,<br> the dead engine and dead airframe come to life at the touch of a human hand,<br> and join their life with the pilot's own.”
-<br><b>-Richard Bach, A Gift of Wings</b>
-</div>
+        <div id="about">
+          “And like no other sculpture in the history of art,<br> the dead engine and dead airframe come to life at the touch of a human hand,<br> and join their life with the pilot's own.”
+          <br><b>-Richard Bach, A Gift of Wings</b>
+        </div>
+      
+    
+ 
+  <!--footer -->
+    <div class="row" cellpadding="0" cellspacing="0" style=" position: relative; z-index: 5000;">
 
-<div class="row" cellpadding="0" cellspacing="0" style=" position: relative; z-index: 5000;">
-  <div class="column" style="background-color: #021238;">
-      <div id="info">
+      <div class="column" style="background-color: #021238;">
+        <div id="info">
           <a id="wh" href="#a">Contact info</a><br>
           <a href="mailto:aero.club@iitb.ac.in" class="fa fa-google"></a>&nbsp; &nbsp;<a id="wh" href="#a">Email Adress</a><br>
-        
-      </div>  
-  </div>
-  <div class="column" style="background-color: #021238;">
-      <div id="social">
-     
+        </div>  
+      </div>
+
+      <div class="column" style="background-color: #021238;">
+        <div id="social">
           <a href="https://www.facebook.com/aeromodellingiitb" class="fa fa-facebook"  target="_blank"> </a> &nbsp;&nbsp;
           <a href="https://www.instagram.com/aeroclub.iitb/" class="fa fa-instagram"  target="_blank"></a> &nbsp;&nbsp;
           <a href="https://www.youtube.com/channel/UCGlytraxeGRZHF8HG5qrfQA/featured" class="fa fa-youtube"  target="_blank"> </a>
-      </div>  
-  </div>
-  <div class="column" style="background-color: #021238;color:aliceblue">
-    <div id="mail">
-      <p id="wh">SUBSCRIBE TO OUR NEWSLETTER</p>
-<form action="/action_page.php">
-  <label for="email">Enter your email:</label>
-  <input type="email" id="email" name="email"><br>
-  <input type="submit">
-</form>
-      </div>  
-  </div>
-  <div class="column" style="background-color: #021238;">
-      <div id="adress">
-      <p id="wh">ADRESS<br> Tinkerer's Lab, IIT Bombay Mumbai, Maharashtra 400076.
-      </p>
-      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%3Fapi%3D1%26destination%3D19.134156119975%252C72.916609657821%26fbclid%3DIwAR3SuQG9raHjUvR0wpTA23hpnTw9dxyKb8oGOASrFTK-yt6_VtlUhW_lpj8&h=AT01Nx9YtS7EJDCBjZEiTUxW4rXwYzyjASAx53Azt48PVlJoAo7sixtL_VuMWb0z7ir3kI_uziXRyF203kg-4wp6Xl4hJABipCUdYo42qNQQ2wZC2qPNx3rHrVMCOk6ynBZNVyzvRBMEGUesWk_Urg"><button style='font-size:15px'>Directions<i class='fas fa-directions'></i></button>
-      </a>
+        </div>  
       </div>
+
+      <div class="column" style="background-color: #021238;color:aliceblue">
+        <div id="mail">
+          <p id="wh">SUBSCRIBE TO OUR NEWSLETTER</p>
+          <form action="/action_page.php">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit">
+          </form>
+        </div>  
+      </div>
+
+      <div class="column" style="background-color: #021238;">
+        <div id="adress">
+          <p id="wh">ADRESS<br> Tinkerer's Lab, IIT Bombay Mumbai, Maharashtra 400076.
+          </p>
+          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%3Fapi%3D1%26destination%3D19.134156119975%252C72.916609657821%26fbclid%3DIwAR3SuQG9raHjUvR0wpTA23hpnTw9dxyKb8oGOASrFTK-yt6_VtlUhW_lpj8&h=AT01Nx9YtS7EJDCBjZEiTUxW4rXwYzyjASAx53Azt48PVlJoAo7sixtL_VuMWb0z7ir3kI_uziXRyF203kg-4wp6Xl4hJABipCUdYo42qNQQ2wZC2qPNx3rHrVMCOk6ynBZNVyzvRBMEGUesWk_Urg"><button style='font-size:15px'>Directions<i class='fas fa-directions'></i></button>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
+  <!-- footer-->
 </body>
 </html>

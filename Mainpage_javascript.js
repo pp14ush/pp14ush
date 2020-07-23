@@ -1,3 +1,4 @@
+//header 
 function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {
@@ -14,7 +15,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+//hearder code ends
 
+// drone,INNOV,AVI and ATE animation
 $(document).ready(function(){ 
 var s = skrollr.init()
 
