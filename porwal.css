@@ -281,20 +281,20 @@ a:hover, .dropdown:hover .dropbtn {
 
       #mail{
         padding-top: 0vw;
-        padding-left: 0vw;
+        padding-left: 3vw;
       font-size: 10px;}
         #adress{
           padding-top: 0vh;
-          padding-left: 0vw;
+          padding-left: 3vw;
         font-size: 10px;}
         #info{
           padding-top: 4vh;
-          padding-left: 1vw;
+          padding-left: 3vw;
           font-size:10px;}
           #social{
             padding-top: 8vw;
             font-size:small;
-            padding-left:2vw;
+            padding-left:3vw;
           }}
           @media only screen and (max-width: 600px) and (min-width: 400px) {
           .innov{
@@ -341,10 +341,8 @@ a:hover, .dropdown:hover .dropbtn {
         margin-top: 57vh;
         margin-left: 68vw;
       }
-      #skrollr-body{
-        margin-top: 1500px;
-      }}
-  
+    
+    }
   
   @media only screen and (max-width: 400px) {
 
